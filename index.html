@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil Pratap - Data Scientist Portfolio</title>
-    <meta name="description" content="Nikhil Pratap - Data Scientist, Machine Learning Engineer & AI Enthusiast. Explore my interactive ML projects and data science portfolio.">
-    <meta name="keywords" content="Data Science, Machine Learning, AI, Python, Portfolio, Nikhil Pratap">
+    <title>Nikhil Pratap - Data Analyst Portfolio</title>
+    <meta name="description" content="Nikhil Pratap - Data Analyst, Python, Machine Learning  & AI Enthusiast. Explore my interactive Data Analytics projects and data analysts portfolio.">
+    <meta name="keywords" content="Data analysts, Machine Learning, Powerbi, Python, Portfolio, Nikhil Pratap">
     <meta name="author" content="Nikhil Pratap">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Nikhil Pratap - Data Scientist Portfolio">
-    <meta property="og:description" content="Explore interactive ML projects and data science solutions by Nikhil Pratap">
+    <meta property="og:title" content="Nikhil Pratap - Data Analysts Portfolio">
+    <meta property="og:description" content="Explore interactive Data Analytics projects and data solutions by Nikhil Pratap">
     <meta property="og:type" content="website">
     
     <!-- Tailwind CSS CDN -->
@@ -279,7 +279,7 @@
                                 Hi, I'm Nikhil Pratap 👋
                             </h1>
                             <h2 className="text-2xl md:text-3xl font-medium mb-6 text-shadow">
-                                Data Scientist | Machine Learning Engineer | AI Enthusiast
+                                Data Analysts | Machine Learning | AI Enthusiast | PowerBI
                             </h2>
                             <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
                                 Turning data into decisions through AI-driven solutions
@@ -345,13 +345,13 @@
                                 </h2>
                                 <div className="space-y-6">
                                     <p className="text-lg text-gray-700 leading-relaxed">
-                                        I'm a passionate Data Scientist skilled in Machine Learning, Deep Learning, and AI model deployment. 
-                                        I love building intelligent systems that solve real-world problems — from fraud detection to music recommendations.
+                                       I’m a data analyst passionate about using data to solve real business problems.
+                                       I specialize in exploratory data analysis, dashboards,
+                                        and predictive insights to improve customer retention, operational efficiency, and decision-making.
                                     </p>
                                     
                                     <p className="text-lg text-gray-700 leading-relaxed">
-                                        With expertise in Python, TensorFlow, and modern data science tools, I transform complex datasets into 
-                                        actionable insights that drive business decisions and create meaningful impact.
+                                        With expertise in SQL, Python, Excel, and data visualization tools, I transform complex datasets into actionable insights that drive business decisions and measurable impact.
                                     </p>
                                     
                                     <div className="bg-white p-6 rounded-lg shadow-md">
@@ -384,16 +384,15 @@
         // Projects Section Component
 const ProjectsSection = () => {
     const projects = [
-        {
+        
+         {
             id: 1,
-            title: "AI Resume Screening And Job Recommendation 📄 ",
-            description: "this model will screening the resume predict the category and give the job recommendation ",
-            image: "📄",
-            demoUrl: "https://ai-resume-screening-and-job-recommendation-bhzndpqm2lxm6zyxkvz.streamlit.app/",
-            githubUrl: "https://github.com/nikhil3156/AI-Resume-Screening-And-Job-Recommendation",
-            tags: ["Python", "Pandas", "Scikit-Learn", "Streamlit"]
+            title: "Vemdor Performance Analysis",
+            description: "Analyzed vendor sales, costs, and inventory data to identify high-performing vendors, loss-making suppliers, and opportunities to improve profitability.",
+            githubUrl: "https://github.com/nikhil3156/vendor-performance-analysis",
+            tags: ["Python", "PowerBI", "SQL", "DBMS"]
         },
-        {
+         {
             id: 2,
             title: "Hybrid Financial Fraud Detection & Risk Analysis💳",
             description: "Predicts fraudulent transactions using Logistic Regression and isolation Forest",
@@ -402,34 +401,32 @@ const ProjectsSection = () => {
             githubUrl: "https://github.com/nikhil3156/Hybrid-Financial-Fraud-Detection-Risk-Analysis",
             tags: ["Machine Learning", "Classification", "Python", "Streamlit"]
         },
-         {
-            id: 3,
-            title: "Potato Disease Detection 🌿",
-            description: "Detects plant diseases using CNN (Deep Learning)",
-            image: "🌿",
-            demoUrl: "https://nikhil-plant-disease.streamlit.app",
-            githubUrl: "https://github.com/nikhil3156/potato-crop-disease-detection-model",
-            tags: ["Deep Learning", "CNN", "TensorFlow", "Computer Vision"]
-        },
         {
-            id: 4,
-            title: "AQI prediction and health analysis",
-            description: "predict the AQI next24h and warn  the health impact",
+            id: 3,
+            title: "Costumer Churn Prediction and Analysis",
+            description: "here analyze that why costumer leaving and predict the high risks costumers with machine learning",
             image: "📱",
-            demoUrl: "https://aqi-prediction-model-for-next-24h-9xrqgqctfcbj29iop69cdi.streamlit.app/",
-            githubUrl: "https://github.com/nikhil3156/AQI-prediction-model-for-next-24h",
-            tags: ["NLP", "Machine Learning", "Classification", "Python", "Streamlit"]
+            githubUrl: "https://github.com/nikhil3156/churn-prediction-and-analysis",
+            tags: ["python", "Machine Learning","PowerBI", "Classification", "Python", "Streamlit"]
         },
         
          {
+            id: 4,
+            title: "Hotel sales and revenue",
+            description: "here analyze the sales and booking why sales goes down",
+            image: "🏨",
+            githubUrl: "https://github.com/nikhil3156/Hotels-Revenue-Analysis-Project",
+            tags: ["Python", "Pandas", "powerBI", "EDA", "SQL"]
+        },
+         {
             id: 5,
-            title: "Spotify Song Recommendation System 🎵",
-            description: "Recommends songs based on user preferences using clustering and cosine similarity",
-            image: "🎵",
-            demoUrl: "https://nikhil-spotify-recommender.streamlit.app",
-            githubUrl: "https://github.com/nikhil3156/music-recommendation-systemm",
+            title: "AI Resume Screening And Job Recommendation 📄 ",
+            description: "this model will screening the resume predict the category and give the job recommendation ",
+            image: "📄",
+            demoUrl: "https://ai-resume-screening-and-job-recommendation-bhzndpqm2lxm6zyxkvz.streamlit.app/",
+            githubUrl: "https://github.com/nikhil3156/AI-Resume-Screening-And-Job-Recommendation",
             tags: ["Python", "Pandas", "Scikit-Learn", "Streamlit"]
-        }
+        },
     ];
     
     return (
@@ -571,12 +568,12 @@ const LiveModelsSection = () => {
     const liveModels = [
         {
             id: 1,
-            title: "📄 AI Resume Screening and Job Recommendation ",
-            description: "this model will screening the resume predict the category and give the job recommendation",
-            embedUrl: "https://music-recommendation-systemm-shm5svwkm9ew6ty72p7ydu.streamlit.app",
-            instructions: "Enter your resume pdf file her get category and job recommendation"
+            title: "Vemdor Performance Analysis",
+            description: "Analyzed vendor sales, costs, and inventory data to identify high-performing vendors, loss-making suppliers, and opportunities to improve profitability.",
+            githubUrl: "https://github.com/nikhil3156/vendor-performance-analysis",
+            tags: ["Python", "PowerBI", "SQL", "DBMS"]
         },
-        {
+         {
             id: 2,
             title: "Hybrid Financial Fraud Detection & Risk Analysis💳",
             description: "Predicts fraudulent transactions using Logistic Regression and isolation Forest",
@@ -585,23 +582,24 @@ const LiveModelsSection = () => {
             githubUrl: "https://github.com/nikhil3156/Hybrid-Financial-Fraud-Detection-Risk-Analysis",
             tags: ["Machine Learning", "Classification", "Python", "Streamlit"]
         },
-         {
-            id: 4,
-            title: "AQI prediction and health analysis",
-            description: "predict the AQI next24h and warn  the health impact",
+        {
+            id: 3,
+            title: "Costumer Churn Prediction and Analysis",
+            description: "here analyze that why costumer leaving and predict the high risks costumers with machine learning",
             image: "📱",
-            demoUrl: "https://aqi-prediction-model-for-next-24h-9xrqgqctfcbj29iop69cdi.streamlit.app/",
-            githubUrl: "https://github.com/nikhil3156/AQI-prediction-model-for-next-24h",
-            tags: ["NLP", "Machine Learning", "Classification", "Python", "Streamlit"]
+            githubUrl: "https://github.com/nikhil3156/churn-prediction-and-analysis",
+            tags: ["python", "Machine Learning","PowerBI", "Classification", "Python", "Streamlit"]
         },
+        
          {
             id: 4,
-            title: "🎵 Music Recommender",
-            description: "Get personalized music recommendations based on your favorite tracks",
-            embedUrl: "https://music-recommendation-systemm-shm5svwkm9ew6ty72p7ydu.streamlit.app",
-            instructions: "Enter your favorite songs and get AI-powered recommendations!"
-        }
-    ];
+            title: "Hotel sales and revenue",
+            description: "here analyze the sales and booking why sales goes down",
+            image: "🏨",
+            githubUrl: "https://github.com/nikhil3156/Hotels-Revenue-Analysis-Project",
+            tags: ["Python", "Pandas", "powerBI", "EDA", "SQL"]
+        },
+    };
     
     return (
         <section id="live-models" className="py-20 bg-gray-900 text-white">
@@ -900,7 +898,7 @@ const LiveModelsSection = () => {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center">
                             <h3 className="text-2xl font-bold gradient-text mb-4">Nikhil Pratap</h3>
-                            <p className="text-gray-400 mb-6">Data Scientist | Machine Learning Engineer | AI Enthusiast</p>
+                            <p className="text-gray-400 mb-6">Data Analysts | Machine Learning | PowerBI</p>
                             
                             <div className="flex justify-center space-x-6 mb-8">
                                 <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
@@ -916,7 +914,7 @@ const LiveModelsSection = () => {
                             
                             <div className="border-t border-gray-800 pt-8">
                                 <p className="text-gray-400">
-                                    © 2025 Nikhil Pratap | Built with ❤️ using React & Tailwind
+                                    © 2026| Nikhil Pratap 
                                 </p>
                             </div>
                         </div>
@@ -971,6 +969,7 @@ const LiveModelsSection = () => {
 </body>
 
 </html>   
+
 
 
 
